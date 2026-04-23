@@ -66,7 +66,7 @@ function parseMatter(file, options) {
 
   // get the length of the opening delimiter
   const openLen = open.length;
-  if (!utils.startsWith(str, open, openLen)) {
+  if (str.slice(0, openLen) !== open) {
     excerpt(file, opts);
     return file;
   }

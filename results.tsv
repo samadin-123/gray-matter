@@ -1,1 +1,2 @@
 thesis	attempt	metric	baseline	status	summary
+#1	thesis/1-cache-delimiter-check-in-hot-path	879547.0000	847000.0000	discarded	Caching delimiter configuration provides minimal benefit because the existing result cache already short-circuits parseMatter for repeated fixture strings
